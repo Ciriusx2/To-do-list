@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #dda15e;
+}
+.container {
+  background-color: #fefae0;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+}
+h1{
+  font:  sans-serif;
+  margin: 30px;
+  text-align: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+input,textarea,button{
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,0.4);
+  font: 100 1.4rem 'Space Grotesk';
+  border-radius: 8px;
+  border: none;
+  margin: 10px;
+
+
+}
+.btn {
+  background-image: url(icons8-plus-24.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 19px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.5s;
+}
+.task{
+  background-color: #faedcd;
+  display: flex;
+  padding: 30px;
+  margin: 2vmax;
+  align-items: center;
+  font: 100 1.1rem 'Space Grotesk' ;
+}
+.task>div{
+  width: 100%;
+}
+.task span{
+  color: rgba(0,0,0,0.4);
+}
+.deletebtn{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e76f51;
+}
+.btn:hover,.deletebtn:hover{
+  background-color: wheat;
+}
